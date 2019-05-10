@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    height: 100%;
+    font-size: 16px;
+    font-family: 'Myriad', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #fafafa  ;
+}
+
+ul {
+    display: table;
+}
+
+h5,
+p {
+    margin: 10px 0;
+}
+
+h5 {
+    margin: 0 5px;
+}
+
+input {
+    width: 100%;
+
+}
+
+#close {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 30px;
+    height: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#box_shadow {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 10000px;
+    background: black;
+    opacity: 0.8;
+    display: none;
+    z-index: 1;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#header {
+    font-size: 25px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #757575   ;
+    align-items: flex-end;
+    padding: 0 15%;
+    min-height: 75px;
+
+}
+
+#top_right_panel {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+.nav_menu>* {
+    list-style: none;
+    display: inline-block;
+    padding: 0 10px;
+
+}
+
+.button:hover,
+a:hover {
+    filter: invert(100%)
+}
+
+.button {
+    font-size: 20px;
+    text-decoration: none;
+    background-color: #ff8f00;
+    color: #ef9a9a;
+    border: 0px;
+
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#main-conteiner{
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    background-color: #cfd8dc;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+ #main {
+    margin: 20px 15%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+     background-color: #cfd8dc;
+    justify-content: space-between;
+}
+
+.service_conteiner {
+    transition: all 0.1s;
+    position: relative;
+    width: 17%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #5777A8;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 150px;
+    max-height: 300px;
+    box-shadow: 10px -5px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+
+}
+
+.service_photo {
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+.service_body_long {
+    display: none;
+}
+
+.add_to_cart_button,
+.more_service_info_button {
+    width: 100%;
+    background-color: #5777A8;
+    text-decoration: none;
+    border: 1px dashed black;
+    margin-top: 0.5px;
+}
+.add_to_cart_button{
+    background-color: #ef9a9a;
+}
+.add_to_cart_button:hover,
+.more_service_info_button:hover {
+    filter: invert(100%)
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#user_registration_form,
+#user_log_in_form {
+    background-color: #5777A8;
+    justify-content: center;
+    position: fixed;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px;
+}
+
+#user_registration_form {
+    width: 350px;
+    height: 500px;
+    margin: -250px -175px;
+}
+
+#user_log_in_form {
+    width: 350px;
+    height: 250px;
+    margin: -125px -175px;
+}
+
+#reg_form,
+#login_form {
+    width: 80%;
+}
+
+h2 {
+    text-align: center;
+    padding: 0 0;
+    background-color: #b0bec5;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+
+#submit {
+    margin: 20px 0;
+    height: 30px;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+#user_info_form {
+    position: relative;
+    align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 8px 8px 0 0;
+
+}
+#user_info_form>*{
+    padding: 0 10px;
+}
+
+#user_avatar {
+    height: 50px;
+    width: 75px;
+    border-radius: 50%;
+}
+#user_name{
+    font-size: 30px;
+}
+#more_user_info_form {
+    display: none;
+    padding: 10px 5px 0;
+    position: absolute;
+    background-color: #f9a825;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    text-align: left;
+    right: 0;
+    width: 100%;    
+    top: 100%;
+    border-radius: 0 0 8px 8px;
+}
+
+.clip {
+    white-space: nowrap; /* Запрещаем перенос строк */
+    overflow: hidden; /* Обрезаем все, что не помещается в область */
+    text-overflow: ellipsis; /* Добавляем многоточие */
+}
+
+.change_input,
+#submit_change {
+    display: none;
+}
+
+#change {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+#content {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 100vh;
+}
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 375px) {
+    #header{
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    #top_right_panel{
+        justify-content: center;
+        align-items: center;
+        padding-top:5px;
+    }
+    .nav_menu>a {
+        padding:5px 0;
+        display: block;
+        width: 100%;
+        position: relative;
+    }
+    #main {
+        justify-content: center;
+    }
+
+}

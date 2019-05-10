@@ -1,0 +1,219 @@
+{
+  "users": [
+    {
+      "name": "Boris",
+      "lastName": "Kozhin",
+      "email": "dead1990bb@gmail.com",
+      "phone": "380938807183",
+      "avatarUrl": "img/kotikAdmin.jpg",
+      "password": "123456",
+      "root": true,
+      "id": 1
+    },
+    {
+      "name": "faaaaa",
+      "lastName": "fff",
+      "email": "fff@fff",
+      "phone": "380938807185",
+      "avatarUrl": "https://comps.canstockphoto.pl/emoticon-zabawna-twarz-p%C5%82acz-clipart-wektorowy_csp45015302.jpg",
+      "password": "123456",
+      "root": false,
+      "id": 2
+    },
+    {
+      "name": "ffff",
+      "lastName": "ffff",
+      "email": "ttt@ttt",
+      "phone": "380990032572",
+      "avatarUrl": "img/kotikUser.jpg",
+      "password": "123456",
+      "root": false,
+      "id": 3
+    },
+    {
+      "name": "Олег",
+      "lastName": "Электришен",
+      "email": "oleg@electrition",
+      "phone": "380990032574",
+      "avatarUrl": "img/kotikUser.jpg",
+      "password": "123456",
+      "root": false,
+      "id": 4
+    }
+  ],
+  "pages": [
+    {
+      "tab": "home",
+      "content": ""
+    },
+    {
+      "tab": "about",
+      "content": "<div id='content'><h1>About Us</h1></div>"
+    },
+    {
+      "tab": "contacts",
+      "content": "<div id='content'><h1>Contacts</h1></div>"
+    },
+    {
+      "tab": "reviews",
+      "content": "<div id='content'><h1>Reviews</h1></div>"
+    }
+  ],
+  "services": [
+    {
+      "id": 1,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, magnam. Maxime nisi dolorum consectetur dolor impedit veniam placeat nobis repudiandae quibusdam aperiam! Dolor inventore modi corporis doloribus quos doloremque, esse sint. Dignissimos, assumenda, unde officiis recusandae blanditiis nihil totam tempora fuga, maxime, architecto quidem provident consequuntur alias expedita sint sunt.",
+      "price": 500
+    },
+    {
+      "id": 2,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia architecto eveniet eos a amet, porro, perferendis nulla placeat quia, quaerat, ab quam qui deserunt dolor aperiam natus cum veritatis? Velit facilis porro reiciendis sequi maiores, voluptas, blanditiis a fugit doloremque minima ipsam dolorem architecto error incidunt aliquid alias eum veritatis?",
+      "price": 1000
+    },
+    {
+      "id": 3,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea quisquam illo velit nisi facere! Dolore nesciunt qui ipsam provident, laboriosam ullam delectus earum saepe veniam magni commodi consectetur in error facere a dignissimos libero ipsum harum rem tenetur quae. Consequuntur, ipsa pariatur id aliquam alias harum sunt, natus et inventore.",
+      "price": 1500
+    },
+    {
+      "id": 4,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fuga libero maiores explicabo cupiditate voluptas, ut laudantium reprehenderit adipisci eveniet quo. Odit, quasi. Minus inventore culpa numquam sit reiciendis quod perferendis et, dolores quis architecto eligendi quo praesentium laudantium hic, asperiores minima aut accusantium odio explicabo sunt quasi. Voluptate, corporis, commodi.",
+      "price": 1000
+    },
+    {
+      "id": 5,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, ratione, laudantium. Molestias dolor iusto rem, voluptates dolores provident, natus alias ducimus nesciunt optio cumque suscipit laborum accusamus sequi! Eum aliquid quibusdam accusantium ex qui incidunt veniam, placeat accusamus doloribus ad, quas delectus minima ratione fugiat modi praesentium non dignissimos iste!",
+      "price": 500
+    },
+    {
+      "id": 6,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea ipsum magnam esse voluptatum, maxime ipsam quaerat labore harum, in. Perspiciatis nam omnis magnam. Earum tempora at aperiam eius quae praesentium quas, ipsum aspernatur labore, modi eum consequatur quia eveniet doloremque odit! Illum saepe, corporis alias officiis cumque sapiente, maxime quam.",
+      "price": 500
+    },
+    {
+      "id": 7,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci eos, neque repudiandae, ab sapiente iusto ipsam facilis? Suscipit perferendis quo, delectus repellendus, iure culpa quam vel, quasi eos voluptatibus quos eius maxime, at distinctio! Repellat fuga quam tempora ipsa, vero molestiae, omnis in cupiditate, quidem sunt deleniti incidunt deserunt ullam.",
+      "price": 500
+    },
+    {
+      "id": 8,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Omnis quisquam recusandae iusto, odio atque sint cum eos illum veritatis officia autem facere saepe quaerat, maxime quia numquam natus itaque cumque ducimus? Voluptatem quisquam reiciendis, iusto minus, impedit aliquam incidunt velit magni doloribus, repellat illum amet exercitationem distinctio labore, omnis similique.",
+      "price": 500
+    },
+    {
+      "id": 9,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus at laudantium nulla quas eum perferendis temporibus facere in incidunt dolor, nesciunt quasi minima animi molestiae maxime amet tempore voluptates, alias ducimus reprehenderit accusantium earum aspernatur deserunt. Sequi aliquam nihil possimus iste doloremque dicta eum, architecto, temporibus, sed, neque incidunt. Vero.",
+      "price": 500
+    },
+    {
+      "id": 10,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda, ullam, voluptate! Quo labore fugiat fugit sint, animi provident reiciendis voluptatem, nesciunt, architecto rerum magnam laudantium ea inventore ad sapiente? A magnam consequuntur eligendi repudiandae reiciendis dignissimos unde molestiae facilis officiis, eius vero totam adipisci, delectus exercitationem iure rem quos eaque.",
+      "price": 500
+    },
+    {
+      "id": 11,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus, omnis ratione odio illo placeat doloribus dolor, qui laborum eaque harum praesentium officia nulla fugiat architecto aliquam nam obcaecati, mollitia numquam! Porro aut perferendis iure accusantium optio fuga, quas autem dolor aspernatur harum, consequuntur vitae distinctio quos. Officiis quidem assumenda dolorum.",
+      "price": 500
+    },
+    {
+      "id": 12,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi unde maxime accusantium hic nemo ea, tempore vitae ab eius voluptate molestias adipisci vel harum quos quis commodi ad quia nihil nobis nostrum sit error. Illum asperiores dolor amet ad reprehenderit suscipit maxime ipsa porro atque voluptatum, assumenda non quasi numquam.",
+      "price": 500
+    },
+    {
+      "id": 13,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis nihil dignissimos sunt accusantium veritatis perferendis incidunt beatae ea asperiores, omnis enim dolor tempore ex vero neque atque debitis assumenda ipsa? Quos officiis, voluptate laborum, tenetur, magnam distinctio dolore, illum consequuntur dolores debitis similique. Ipsam doloremque incidunt architecto, vero et. Pariatur.",
+      "price": 500
+    },
+    {
+      "id": 14,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident nisi eum asperiores doloremque omnis porro pariatur sint dolorum ratione aut laboriosam magni aperiam, ab dolore, dolores quia hic, mollitia sunt. Quod, repellat ratione sed aspernatur vitae necessitatibus. Aut ipsa et, assumenda quo modi sapiente amet libero aliquid, voluptate nobis alias!",
+      "price": 500
+    },
+    {
+      "id": 15,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae iure praesentium sit natus eum, quod quibusdam ad temporibus, ab placeat expedita quam itaque odio, incidunt dolores? Totam possimus, ex dolores quod quam magni esse. Tempora, eaque, esse! Iusto libero voluptas accusamus dignissimos illum eum reiciendis vitae, numquam recusandae tenetur, dolorum?",
+      "price": 500
+    },
+    {
+      "id": 16,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum tempora possimus rem odio nesciunt quo, corporis facilis vitae sed praesentium laboriosam ipsam aspernatur cum nihil, accusantium eos dignissimos impedit, eum alias suscipit. Laudantium consequatur totam obcaecati sapiente qui esse impedit, aperiam magnam laborum iure aut, amet reiciendis eum, voluptas sint.",
+      "price": 500
+    },
+    {
+      "id": 17,
+      "servicePhoto": "img/kotik1.jpg",
+      "bodyShort": "Здесь будет краткое описание услуги",
+      "bodyLong": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi sed mollitia, ad harum! Ipsa magni velit repellendus, delectus blanditiis accusamus? Quis illum sequi quas ratione at beatae nobis, veritatis officiis, commodi exercitationem molestiae natus perspiciatis, maxime nam, debitis modi aliquam rerum possimus praesentium deleniti qui corporis quos. Omnis libero, itaque?",
+      "price": 500
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "userId": 2,
+      "body": "Замечательный сервис, мне все очень понравилось!"
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "userId": 2,
+      "serviceId": 4
+    }
+  ],
+  "config": {
+    "siteTitle": "Boriska SnS",
+    "mainPage": "main",
+    "pages": {
+      "main": {
+        "title": "Главная",
+        "menu": "main"
+      },
+      "about": {
+        "title": "О проекте",
+        "menu": "about"
+      },
+      "simpple": {
+        "title": "Проект Simpple",
+        "menu": "simpple"
+      },
+      "contacts": {
+        "title": "Контакты",
+        "menu": "contacts"
+      }
+    }
+  }
+}
